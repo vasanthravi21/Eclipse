@@ -6,9 +6,9 @@ public class BitwiseAndShift {
         int a=25, b=45;
         /*
             Working process
-                1. First convert DEC2BIN
+                1. First convert DEC2BIN(loc,4)
                 2. perform AND GATE
-                3. Convert BIN2DEC
+                3. Convert BIN2DEC()
          */
         System.out.println("Bitwise AND : "+(a&b));
         System.out.println("Bitwise OR : "+(a|b));

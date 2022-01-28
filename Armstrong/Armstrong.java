@@ -1,7 +1,5 @@
 package Armstrong;
 
-import Sum_Ave.SumAve;
-
 import java.util.Scanner;
 
 public class Armstrong {
@@ -18,7 +16,7 @@ public class Armstrong {
         digit2 = num % 10;
         num = num /10;
         digit1 = num % 10;
-        num = num /10;
+       // num = num /10;
 
         result = (digit1*digit1*digit1) + (digit2*digit2*digit2) + (digit3*digit3*digit3);
         if(originalNumber == result){

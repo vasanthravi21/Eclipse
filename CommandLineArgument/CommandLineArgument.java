@@ -7,7 +7,7 @@ public class CommandLineArgument {
               commants are different
                    commants are of two types
                         1. single commant
-                        2. MUltiplw commants
+                        2. MUltiple commants
                      Eg : example for commants is "This commanted lines. "
          */
         for(int i=0;i<args.length;i++){
